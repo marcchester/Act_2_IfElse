@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Marc Chester Batin
+        // BSCS 3A
+
+        
+        let grade = 90
+
+        // corresponding grade in letter
+        let letter
+        if (grade >= 90 && grade  <= 100 ){
+            letter = "E";
+        }
+
+        else if ( garde >= 80 && grade <= 89){
+            letter = "V"
+        
+        }
+
+        else if ( grade >= 75 && grade <= 79){
+            letter = "G"
+        }
+
+        else if ( grade >= 0 && grade <= 74){
+            letter = "F"
+        }
+
+        else {
+            console.log ("Invalid grade");
+        }
+
+        // switch & case STATEMENTTT
+
+        switch(letter) {
+            case "E":
+                console.log("Your grade is " + letter);
+                console.log ("Excellent! You passed!");
+                break;
+            
+            case "V": 
+                console.log("Your grade is " + letter);
+                console.log("Very Good! You passed!");
+                break;
+
+            case "G": 
+                console.log("Your grade is " + letter);
+                console.log("Good! You passed!");
+            break;
+
+            case "F": 
+                console.log("Your grade is " + letter);
+                console.log("You failed!");
+            break;
+        }
+
+        // if else if STATEMENT
+        if ( letter == "E"){
+            console.log("Your grade is " + letter);
+            console.log ("Excellent! You passed!");
+
+        }
+
+        else if (letter == "V") {
+            console.log("Your grade is " + letter);
+            console.log("Very Good! You passed!");
+
+        }
+
+        else if (letter == "G") {
+            console.log("Your grade is " + letter);
+            console.log("Good! You passed!");
+        }
+        else {
+            console.log("Your grade is " + letter);
+            console.log("You failed!");
+        }
+    </script>
+</body>
+</html>
